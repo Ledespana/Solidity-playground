@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.codeActionsOnSave": {
+    "source.fixall.eslint": true
+  },
+  "editor.formatOnSave": true
+}
