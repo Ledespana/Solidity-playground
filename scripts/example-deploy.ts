@@ -5,7 +5,7 @@ import { parseFixed, BigNumber } from "@ethersproject/bignumber";
 export function getBigNumberUsingDecimals(amount: number = 1, decimals: number = 18): BigNumber {
   return parseFixed(amount.toString(), decimals);
 }
-
+// npx hardhat scripts/example-deployement.ts
 async function main() {
 
   // EXAMPLE
